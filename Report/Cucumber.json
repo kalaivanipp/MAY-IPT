@@ -1,0 +1,298 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-26T07:00:23.345Z",
+        "line": 3,
+        "name": "Login page",
+        "description": "",
+        "id": "adactin-hotel-booking-system;login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3142266300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Chrome and launch Browser",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.open_chrome_and_launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 203754100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username in text field",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_enters_username_in_text_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145767700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password in textfield",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_enters_password_in_textfield()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270304000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user can succeffully enter into Homepage",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_can_succeffully_enter_into_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-26T07:00:28.325Z",
+        "line": 9,
+        "name": "Search Hotel",
+        "description": "",
+        "id": "adactin-hotel-booking-system;search-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 227451700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user selects Location",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_location()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 165502800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user selects the Hotel",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_the_hotel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 134849300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user selects Room Type",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_room_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 133080700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user selects NumofRooms",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_numof_rooms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 486871200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enters Checkin \u0026 Checkout Date",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_enters_checkin_checkout_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144913500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects AdultsperRoom",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_adultsper_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138965200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user selects ChildrenperRoom",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_childrenper_room()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 634094800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks searchButton to serach Hotel",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_clicks_search_button_to_serach_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//select[@id\u003d\u0027hotels\u0027]\"}\n  (Session info: chrome\u003d104.0.5112.81)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-1JREN33\u0027, ip: \u0027192.168.81.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002718.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.81, chrome: {chromedriverVersion: 104.0.5112.29 (eff877e18f76..., userDataDir: C:\\Users\\kalai\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51971}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 819ecfbf4a196a02a12d0f3481426212\n*** Element info: {Using\u003dxpath, value\u003d//select[@id\u003d\u0027hotels\u0027]}\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy19.getTagName(Unknown Source)\r\n\tat org.openqa.selenium.support.ui.Select.\u003cinit\u003e(Select.java:45)\r\n\tat com.adactin.baseclass.BaseClass.Drop_DownBox(BaseClass.java:106)\r\n\tat com.adactin.stepdefinition.StepDefinition.user_selects_the_hotel(StepDefinition.java:46)\r\n\tat ✽.user selects the Hotel(file:///C:/Users/kalai/Green%20Practice/Adactin_Hotel_Mini/src/test/java/com/adactin/feature/Feature.feature:18)\r\n",
+              "duration": 48164900,
+              "status": "failed"
+            },
+            "line": 18,
+            "name": "user selects the Hotel",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_selects_the_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "user clicks contiune to Book the Hotel",
+            "match": {
+              "location": "com.adactin.stepdefinition.StepDefinition.user_clicks_contiune_to_book_the_hotel()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-26T07:00:30.588Z",
+        "line": 21,
+        "name": "Book A Hotel",
+        "description": "",
+        "id": "adactin-hotel-booking-system;book-a-hotel",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 22,
+            "name": "user enters first name",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user enters last name",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user enters Billing Address",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user enters Credit Card No",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user selects Credit card Type",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user selects Expiry Date",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000100,
+              "status": "skipped"
+            },
+            "line": 28,
+            "name": "user Enters CVV Number",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998500,
+              "status": "skipped"
+            },
+            "line": 29,
+            "name": "user clicks Book Now Button and take screen shotof the Booked page",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 30,
+            "name": "user clicks the Log Out Button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adactin Hotel Booking System",
+    "description": "",
+    "id": "adactin-hotel-booking-system",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/adactin/feature/Feature.feature",
+    "tags": []
+  }
+]
