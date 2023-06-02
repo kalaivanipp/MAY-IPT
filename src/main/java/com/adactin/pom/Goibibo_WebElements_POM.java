@@ -8,6 +8,12 @@ import org.openqa.selenium.support.PageFactory;
 public class Goibibo_WebElements_POM {
 	
 	public static WebDriver driver;
+	public WebDriver getDriver1() {
+		return driver;
+	}
+	public void setDriver(WebDriver driver) {
+		this.driver = driver;
+	}
 	
 	@FindBy(xpath="//input[@id='Billing Address']")
 	private WebElement billAddress;
